@@ -1,17 +1,18 @@
 html, body {
-  margin: 0;
-  padding: 0;
-  background-color: rgb(32, 33, 51);
+    background-color: rgb(32, 33, 51);
+    color: gainsboro;
 }
 
-canvas {
-  display: block;
-  margin: auto;
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-main {
-  width: auto;
-  height: 100%;
-  margin: auto;
-  /*border: 5px solid white;*/
+#ins {
+    color: gainsboro;
+    padding: 2px 4px 2px 4px;
+    font-family: consolas;
+    font-size: 12px;
+    height: 100px;
 }
